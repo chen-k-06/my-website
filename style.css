@@ -5,6 +5,7 @@ body {
     margin: 30px;
 }
 
+/* project boxes */
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -14,7 +15,7 @@ body {
 }
 
 .project-box {
-    border: 1px solid darkgray;
+    border: 2px solid darkgray;
     border-radius: 10px;
     padding: 15px;
     box-sizing: border-box;
@@ -26,8 +27,25 @@ body {
     justify-content: center;
 }
 
-@media (max-width: 768px) {
+/* tags */
+.tags-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.tag {
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 3px;
+    font-size: 0.9rem;
+    display: inline-block;
+    max-width: calc();
+}
+
+@media (max-width: 768px) {
     .project-box {
         flex-basis: calc(50% - 20px);
         max-width: calc(50% - 20px);
@@ -55,4 +73,5 @@ body {
     .project-container {
         margin: 0;
     }
+
 }
