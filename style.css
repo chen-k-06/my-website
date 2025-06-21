@@ -65,8 +65,8 @@ body {
 
     /*full width on small screens"*/
     .project-box {
-        flex-basis: calc(50% - 20px);
-        max-width: calc(50% - 20px);
+        flex-basis: calc(100% - 20px);
+        max-width: calc(100% - 20px);
         margin: 10px;
     }
 
