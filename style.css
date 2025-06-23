@@ -53,6 +53,8 @@ body.night #top-bar {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
+
 }
 
 #top-bar h1 {
@@ -61,12 +63,11 @@ body.night #top-bar {
 }
 
 #mode-button {
-    border: 1.5px solid rgb(207, 207, 207);
+    border: 1px solid rgb(207, 207, 207);
     border-radius: 50%;
     aspect-ratio: 1;
     height: 40px;
     margin: 10px;
-    padding: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +77,22 @@ body.night #top-bar {
 
 body.night #mode-button {
     border: 1.5px solid whitesmoke;
+    color: rgb(27, 27, 27);
+}
+
+#top-bar img {
+    height: 30px;
+    aspect-ratio: 1;
+    margin: 3px;
+}
+
+#top-bar #linkedin-image {
+    height: 40px;
+    margin-top: 5px;
+}
+
+body.night img {
+    filter: brightness(0) saturate(100%) invert(1);
 }
 
 /* project boxes */
