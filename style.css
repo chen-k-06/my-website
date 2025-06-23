@@ -137,6 +137,8 @@ body.night .project-box {
     margin: 3px;
     font-size: 0.9rem;
     display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 body.night .tag {
