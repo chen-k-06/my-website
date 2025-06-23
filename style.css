@@ -151,7 +151,8 @@ body.night .tag {
     margin: 0;
     border-radius: 50%;
     aspect-ratio: 1;
-    height: 20%;
+    height: 15px;
+    width: 15px;
     vertical-align: middle;
 }
 
