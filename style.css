@@ -153,7 +153,7 @@ body.night .tag {
     aspect-ratio: 1;
     height: 15px;
     width: 15px;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .python p {
