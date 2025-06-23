@@ -1,8 +1,46 @@
 body {
-    background-color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: thin;
     margin: 30px;
+}
+
+body.day {
+    background: whitesmoke;
+    color: black;
+}
+
+body.night {
+    background: rgb(27, 27, 27);
+    color: white;
+}
+
+body.night a {
+    color: rgb(128, 191, 255);
+}
+
+body.night a:visited {
+    color: rgb(177, 156, 217);
+}
+
+/* Top bar */
+#top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mode-button {
+    border: 1.5px solid darkgray;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    height: 40px;
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 /* project boxes */
