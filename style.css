@@ -41,8 +41,38 @@ body {
     padding: 5px;
     margin: 3px;
     font-size: 0.9rem;
-    display: inline-block;
-    max-width: calc();
+    display: block;
+}
+
+.tag p {
+    display: inline;
+    padding: 0px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.python p {
+    background: rgb(53, 114, 165);
+}
+
+.html p {
+    background: rgb(227, 76, 38);
+}
+
+.css p {
+    background: rgb(86, 61, 124);
+}
+
+.javascript p {
+    background: rgb(241, 224, 90);
+}
+
+.fastAPI p {
+    background: rgb(0, 150, 136);
+}
+
+.c p {
+    background: rgb(85, 85, 85);
 }
 
 @media (max-width: 768px) {
