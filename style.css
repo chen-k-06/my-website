@@ -2,6 +2,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: thin;
     margin: 30px;
+    margin-top: 120px;
 }
 
 body.day {
@@ -24,23 +25,47 @@ body.night a:visited {
 
 ::selection {
     background: rgb(128, 191, 255);
-    color: black;
+    color: white;
 }
-
 
 /* Top bar */
 #top-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(207, 207, 207);
+    top: 0;
+    left: 0;
+    padding: 1em;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1000;
+    position: absolute;
+}
+
+body.night #top-bar {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+#right-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#top-bar h1 {
+    font-size: 1.5em;
+    margin-left: 5px;
 }
 
 #mode-button {
-    border: 1.5px solid darkgray;
+    border: 1.5px solid rgb(207, 207, 207);
     border-radius: 50%;
     aspect-ratio: 1;
     height: 40px;
-    margin: 5px;
+    margin: 10px;
     padding: 3px;
     display: flex;
     justify-content: center;
