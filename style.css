@@ -226,4 +226,7 @@ hr {
         margin: 0;
     }
 
+    .tag p {
+        display: none;
+    }
 }
