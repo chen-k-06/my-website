@@ -22,6 +22,12 @@ body.night a:visited {
     color: rgb(177, 156, 217);
 }
 
+::selection {
+    background: rgb(128, 191, 255);
+    color: black;
+}
+
+
 /* Top bar */
 #top-bar {
     display: flex;
