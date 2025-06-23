@@ -43,6 +43,10 @@ body.night a:visited {
     font-size: 1.5em;
 }
 
+body.night #mode-button {
+    border: 1.5px solid whitesmoke;
+}
+
 /* project boxes */
 .project-container {
     display: flex;
@@ -65,6 +69,11 @@ body.night a:visited {
     justify-content: center;
 }
 
+
+body.night .project-box {
+    border: 2px solid whitesmoke;
+}
+
 /* tags */
 .tags-container {
     display: flex;
@@ -80,6 +89,10 @@ body.night a:visited {
     margin: 3px;
     font-size: 0.9rem;
     display: block;
+}
+
+body.night .tag {
+    border: 1px solid whitesmoke;
 }
 
 .tag p {
