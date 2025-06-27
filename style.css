@@ -73,10 +73,11 @@ body.night #top-bar {
     align-items: center;
     text-align: center;
     font-size: 1.5em;
+    transition: opacity 0.15s ease-in-out;
 }
 
 body.night #mode-button {
-    border: 1.5px solid whitesmoke;
+    border: 1.5px solid rgb(2, 1, 1);
     color: rgb(27, 27, 27);
 }
 
