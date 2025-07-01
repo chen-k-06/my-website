@@ -7,7 +7,7 @@ document.getElementById("mode-button").addEventListener("click", () => {
         if (body.classList.contains("day")) {
             body.classList.add("night");
             body.classList.remove("day");
-            button.textContent = "☁︎";
+            button.textContent = "☁️";
             console.log("Night mode is active");
         }
         else {
