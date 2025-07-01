@@ -232,6 +232,6 @@ hr {
     }
 
     body.night #mode-button {
-        font-size: 3em;
+        font-size: 24px;
     }
 }
