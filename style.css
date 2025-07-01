@@ -230,4 +230,8 @@ hr {
     .tag p {
         display: none;
     }
+
+    body.night #mode-button {
+        font-size: 3em;
+    }
 }
