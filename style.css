@@ -92,8 +92,21 @@ body.night #mode-button {
     margin-top: 5px;
 }
 
+#top-bar #home-img {
+    margin-top: 5px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    height: 25px;
+    background-color: whitesmoke;
+    padding: 7px;
+}
+
 body.night img {
     filter: brightness(0) saturate(100%) invert(1);
+}
+
+body.night #home-img {
+    filter: none;
 }
 
 /* project boxes */
