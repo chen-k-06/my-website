@@ -221,10 +221,47 @@ hr {
     width: 100%;
 }
 
+/* Art page */
+
+#art-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    width: 100%;
+}
+
+.art-caption-box {
+    display: flex;
+    font-size: 1.5em;
+    width: 30%;
+    height: auto;
+    margin: 5px;
+    flex-basis: calc(33% - 10px);
+}
+
+.art-caption-box img {
+    width: 90%;
+    height: auto;
+}
+
+body.night .art-caption-box img {
+    filter: none;
+}
+
 @media (max-width: 768px) {
     .project-box {
         flex-basis: calc(50% - 20px);
         max-width: calc(50% - 20px);
+    }
+
+    .art-caption-box {
+        width: 50%;
+        flex-basis: calc(50% - 10px);
+    }
+
+    .art-caption-box img {
+        flex-basis: calc(50% - 10px);
     }
 }
 
