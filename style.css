@@ -125,7 +125,7 @@ body.night #home-img {
     box-sizing: border-box;
     flex-grow: 1;
     flex-shrink: 1;
-    margin: 10px 10px;
+    margin: 6px 10px;
     flex-basis: calc(33% - 20px);
     max-width: calc(33% - 20px);
     justify-content: center;
